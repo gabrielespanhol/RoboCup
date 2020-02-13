@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  background-image: url(../images/gradiente.jpg);
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  color: silver;
+}
+
+.nav-titulo{
+  margin-left: 10px;
+  line-height: 50px;
+}
+
+.nav-logo{
+  object-fit: cover;
+  margin-left: 200px;
+}
+
+.carousel-image{
+  object-fit: cover;
+  height: 400px;
+  object-position: 0 80%;
+}
+
+.carousel-image-1{
+  object-fit: cover;
+  height: 400px;
+  object-position: 0 50%;
+}
+.carousel-image-2{
+  object-fit: cover;
+  height: 400px;
+  object-position: 0 50%;
+}
+.carousel-image-3{
+  object-fit: cover;
+  height: 400px;
+  object-position: 0 15%;
+}
+
+.titulo-carousel{
+  font-family: 'Oswald', sans-serif;
+}
+
+.cor-especial{
+  color: silver;
+}
+
+.competicao-carousel-image{
+  object-fit: cover;
+  height: 300px;
+  object-position: 0 80%;
+}
+
+.equipe{
+  width: 100%;
+  margin-top: 80px;
+  background: linear-gradient(to bottom, silver, lightgray);
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.equipe-img{
+  width: 100%;
+  object-fit: cover;
+}
+.equipe-titulo{
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+
+.card-style {
+  width: 18rem;
+}
+
+.card{
+  background-color: silver;
+}
+.card-titulo{
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+
+.card-text{
+  color: black;
+}
+
+.robo{
+  width: 100%;
+  padding-top: 150px;
+  margin: auto;
+}
+
+.robo-projeto-titulo{
+  font-size: 30px;
+  color: silver;
+  font-weight: 400;
+}
+
+.robo-projeto-image{
+    object-fit: cover;
+}
+
+.robo-detalhes-carousel{
+    object-fit: cover;
+    height: 450px;
+}
+
+.robo-arma-image{
+  object-fit: cover;
+}
+
+.linha{
+  margin: 30px;
+  height: 1px;
+  border: dashed 1px silver;
+}
+
+.storytelling{
+  width: 100%;
+  padding-top: 150px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.storytelling-principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.storytelling-principal h1{
+  position: absolute;
+  text-align: center;
+  color: silver;
+}
+
+.storytelling-imagem{
+  height: 200px;
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.storytelling-texto{
+  width: 90%;
+  text-align: justify;
+  margin-left: 100px;
+}
+
+.storytelling-texto h1{
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: silver;
+  margin-right: 75px;
+}
+
+.storytelling-texto h4{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: silver;
+  margin-right: 75px;
+}
+
+.storytelling-texto p{
+  font-size: 22px;
+  margin-right: 75px;
+}
+
+.contato{
+  background-color: silver;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.contato h5 {
+  color: black;
+}
+
+.contato p{
+  color: black;
+  font-size: 22px;
+}
+
+.botao-contato{
+  background-color: FireBrick;
+  text-align: center;
+  color: ghostwhite;
+  margin-left: 70px;
+}
+
+.botao-contato:hover{
+    box-shadow:0 5px 0 darkred;
+}
+
+.botao-contato:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+.rodape{
+  height: 100px;
+}
+
+.rodape h1{
+  font-size: 20px;
+  color: silver;
+  line-height: 100px;
+  font-weight: 400px;
+}
